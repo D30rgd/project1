@@ -1,0 +1,32 @@
+body{
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    /* background: #000; */
+    border: 3px solid gold;
+    border-radius: 5px;
+    margin: 10px;
+}
+.box1{
+   display: grid;
+   grid-template-columns:repeat(2,1fr);
+}
+
+#first{
+    background-color: darkgoldenrod;
+}
+#second{
+    background-color: blue;
+}
+#third{
+    background-color: deeppink;
+}
+#forth{
+    background-color: darkgreen;
+}
